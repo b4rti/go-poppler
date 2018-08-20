@@ -8,6 +8,6 @@ install poppler-glib and cairo (for Debian/Ubuntu):
 ```apt-get install libpoppler-glib-dev libcairo2-dev```   
    
 install go package:   
-```go get github.com/cheggaaa/go-poppler```
+```CGO_CFLAGS_ALLOW=".*" CGO_CXXFLAGS_ALLOW=".*" CGO_LDFLAGS_ALLOW=".*" go install github.com/b4rti/go-poppler```
 
 
