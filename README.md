@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/efernau/go-poppler/master/go-poppler.png" width="300">
+
 go-poppler
 ==========
 
